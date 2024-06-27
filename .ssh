@@ -1,0 +1,13 @@
+# Config de Usuarios de git multiples.
+   # Enterprise account
+   # Puede ser el mismo host
+     Host gitlab.com
+          HostName gitlab.com 
+          User git
+          IdentityFile ~/.ssh/empresa
+
+     # Personal account
+     Host github.com
+          HostName github.com
+          User git
+          IdentityFile ~/.ssh/santiagocento
